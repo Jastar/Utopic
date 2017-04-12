@@ -1,0 +1,305 @@
+h1 {
+  font-size: 36px;
+  line-height: 36px;
+  font-family: "GeorgiaRegular";
+  color: #666; }
+
+h2 {
+  font-size: 26px;
+  line-height: 26px;
+  font-family: "GeorgiaRegular";
+  color: #666; }
+
+h3 {
+  font-size: 22px;
+  line-height: 33px;
+  font-family: "GeorgiaRegular";
+  color: #333; }
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "GeorgiaRegular";
+  color: #894aa3; }
+
+h5 {
+  font-size: 16px;
+  line-height: 19.2px;
+  font-family: "GeorgiaRegular";
+  color: #894aa3; }
+
+h6 {
+  font-size: 13px;
+  line-height: 15.6px;
+  font-family: "GeorgiaRegular";
+  color: #666; }
+
+body {
+  font-size: 13px;
+  line-height: 20.8px;
+  font-family: "GeorgiaRegular";
+  color: #666; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+header div.container, section#services div.container, footer div.container {
+  background-color: #fff; }
+
+header, section#slider, section#services, section#work, footer {
+  background-color: #d0d0d0; }
+
+/********************************************* HEADER *********************************************/
+header div.container {
+  border-top: 10px solid #894aa3; }
+  header div.container form {
+    max-width: 100%;
+    margin: 0 15px 0 auto; }
+    header div.container form div.search {
+      margin: 0 0 0 auto;
+      max-width: 215px;
+      background-color: #ebebea;
+      padding: 0px 5px 5px 5px;
+      border-radius: 0px 0px 10px 10px; }
+      header div.container form div.search input[type="search"] {
+        border: none;
+        outline: none;
+        background-color: #ebebea; }
+      header div.container form div.search button {
+        border: none;
+        outline: none;
+        color: #894aa3;
+        background-color: transparent; }
+        header div.container form div.search button:hover {
+          color: #582f69; }
+  header div.container h2 {
+    margin: 10px auto 10px 30px; }
+  header div.container span {
+    margin: 0 auto 0px 30px; }
+  header div.container ul#navigation {
+    padding: 0px;
+    margin: 30px auto 40px auto;
+    text-align: center; }
+    header div.container ul#navigation li {
+      list-style-type: none;
+      display: inline;
+      margin-right: 30px; }
+      header div.container ul#navigation li a {
+        font-size: 12px;
+        line-height: 12px;
+        font-family: "GeorgiaRegular";
+        color: #666666;
+        text-decoration: none;
+        -webkit-transition: color 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out; }
+        header div.container ul#navigation li a:hover {
+          color: #000000; }
+  header div.container button#showMenu {
+    margin: 0px auto 30px auto;
+    margin-left: auto;
+    background-color: transparent;
+    padding: 15px;
+    color: #000;
+    border: none;
+    outline: none;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out; }
+    header div.container button#showMenu:hover {
+      opacity: 0.7; }
+    header div.container button#showMenu:active {
+      -webkit-transform: translate(2px, 2px);
+      -ms-transform: translate(2px, 2px);
+      transform: translate(2px, 2px); }
+  header div.container ul#navigationXS {
+    display: none;
+    padding: 0px;
+    margin: 0 auto;
+    text-align: center; }
+    header div.container ul#navigationXS li {
+      margin: 10px auto;
+      list-style-type: none; }
+      header div.container ul#navigationXS li a {
+        display: block;
+        font-size: 12px;
+        line-height: 12px;
+        font-family: "GeorgiaRegular";
+        color: #666666;
+        text-decoration: none;
+        -webkit-transition: color 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out;
+        padding: 10px; }
+        header div.container ul#navigationXS li a:hover {
+          background-color: #a09898;
+          color: #fff; }
+
+/********************************************* HEADER *********************************************/
+/********************************************* SECTION#SLIDER *********************************************/
+section#slider div.col-lg-12 {
+  padding: 0px; }
+section#slider h3 {
+  text-align: center;
+  font-style: italic;
+  margin: 0px auto;
+  padding: 20px 220px;
+  background-color: #ebebea; }
+section#slider div.owl-carousel div.slide1, section#slider div.owl-carousel div.slide2, section#slider div.owl-carousel div.slide3, section#slider div.owl-carousel div.slide4, section#slider div.owl-carousel div.slide5 {
+  width: 100%;
+  height: 380px; }
+  section#slider div.owl-carousel div.slide1 div.slidecaption, section#slider div.owl-carousel div.slide2 div.slidecaption, section#slider div.owl-carousel div.slide3 div.slidecaption, section#slider div.owl-carousel div.slide4 div.slidecaption, section#slider div.owl-carousel div.slide5 div.slidecaption {
+    max-width: 450px;
+    background-color: #000000;
+    padding: 20px 15px;
+    text-align: left;
+    position: absolute;
+    bottom: 0%;
+    right: 0%; }
+    section#slider div.owl-carousel div.slide1 div.slidecaption h4, section#slider div.owl-carousel div.slide2 div.slidecaption h4, section#slider div.owl-carousel div.slide3 div.slidecaption h4, section#slider div.owl-carousel div.slide4 div.slidecaption h4, section#slider div.owl-carousel div.slide5 div.slidecaption h4 {
+      color: #c2c2c2;
+      margin: 0 auto; }
+    section#slider div.owl-carousel div.slide1 div.slidecaption p, section#slider div.owl-carousel div.slide2 div.slidecaption p, section#slider div.owl-carousel div.slide3 div.slidecaption p, section#slider div.owl-carousel div.slide4 div.slidecaption p, section#slider div.owl-carousel div.slide5 div.slidecaption p {
+      color: #c2c2c2;
+      margin: 20px auto 20px 0;
+      max-width: 356px; }
+section#slider div.owl-carousel div.slide1 {
+  background: url("../images/slide1.gif"); }
+section#slider div.owl-carousel div.slide2 {
+  background: url("../images/slide2.gif"); }
+section#slider div.owl-carousel div.slide3 {
+  background: url("../images/slide3.gif"); }
+section#slider div.owl-carousel div.slide4 {
+  background: url("../images/slide4.gif"); }
+section#slider div.owl-carousel div.slide5 {
+  background: url("../images/slide5.gif"); }
+section#slider div.owl-carousel div.owl-dots {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 5%;
+  left: 5%; }
+
+/********************************************* SECTION#SLIDER *********************************************/
+/********************************************* SECTION#SERVICES *********************************************/
+section#services img {
+  display: inline-block; }
+section#services h4 {
+  margin: 40px auto 0px auto;
+  display: inline-block; }
+section#services p {
+  margin: 0px auto 50px 100px;
+  max-width: 185px;
+  text-align: justify; }
+
+/********************************************* SECTION#SERVICES *********************************************/
+/********************************************* SECTION#WORK *********************************************/
+section#work div.container {
+  background-color: #ebebea; }
+  section#work div.container figure {
+    padding: 10px;
+    background-color: #fff;
+    max-width: 280px; }
+    section#work div.container figure figcaption h5 {
+      margin: 25px auto; }
+    section#work div.container figure figcaption p {
+      margin: 0 auto;
+      padding-bottom: 10px;
+      max-width: 230px;
+      text-align: center; }
+
+/********************************************* SECTION#WORK *********************************************/
+/********************************************* FOOTER *********************************************/
+footer {
+  padding-bottom: 60px; }
+  footer div.second h6 {
+    margin: 40px auto 30px auto; }
+  footer div.second ul#links {
+    padding: 0px;
+    margin: 0 auto; }
+    footer div.second ul#links li {
+      list-style-type: none;
+      margin-bottom: 10px; }
+      footer div.second ul#links li a {
+        display: block;
+        border-bottom: 1px solid #e6e6e6;
+        text-decoration: none;
+        color: #999999; }
+        footer div.second ul#links li a:hover {
+          opacity: 0.8; }
+  footer div.third h6 {
+    margin: 40px auto 30px auto; }
+  footer div.third h6.blog {
+    margin: 0 auto 5px auto; }
+  footer div.third span {
+    font-size: 11px;
+    line-height: 13.2px;
+    font-family: "GeorgiaRegular";
+    color: #999999;
+    margin: 0 auto; }
+  footer div.third p {
+    margin: 10px auto 10px 0;
+    max-width: 195px; }
+  footer div.third a {
+    display: block;
+    text-align: center;
+    margin: 0px auto 30px 60px;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-family: "GeorgiaRegular";
+    color: #874ca0;
+    text-decoration: none;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out; }
+    footer div.third a:hover {
+      opacity: 0.7; }
+  footer div.fourth h6 {
+    margin: 40px auto 30px auto; }
+  footer div.fourth form input[type="text"], footer div.fourth form input[type="email"], footer div.fourth form input[type="submit"] {
+    display: block;
+    width: 100%;
+    max-width: 210px;
+    font-size: 13px;
+    line-height: 20.58px;
+    font-family: "GeorgiaRegular";
+    color: #999999;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px; }
+  footer div.fourth form input[type="email"] {
+    margin: 10px auto 10px 0px; }
+  footer div.fourth form input[type="submit"] {
+    color: #874ca0;
+    max-width: 80px; }
+  footer div.fourth form input[type="text"]::-webkit-input-placeholder, footer div.fourth form input[type="email"]::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease;
+            transition: opacity 0.3s ease; }
+  footer div.fourth form input[type="text"]::-moz-placeholder, footer div.fourth form input[type="email"]::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease; }
+  footer div.fourth form input[type="text"]:-moz-placeholder, footer div.fourth form input[type="email"]:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease; }
+  footer div.fourth form input[type="text"]:-ms-input-placeholder, footer div.fourth form input[type="email"]:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease; }
+  footer div.fourth form input[type="text"]:focus::-webkit-input-placeholder, footer div.fourth form input[type="email"]:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+            transition: opacity 0.3s ease; }
+  footer div.fourth form input[type="text"]:focus::-moz-placeholder, footer div.fourth form input[type="email"]:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease; }
+  footer div.fourth form input[type="text"]:focus:-moz-placeholder, footer div.fourth form input[type="email"]:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease; }
+  footer div.fourth form input[type="text"]:focus:-ms-input-placeholder, footer div.fourth form input[type="email"]:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease; }
+
+/********************************************* FOOTER *********************************************/

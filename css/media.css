@@ -1,0 +1,77 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  section#slider h3 {
+    padding: 20px 20px; }
+
+  section#services div.col-lg-4 {
+    text-align: center; }
+    section#services div.col-lg-4:last-child {
+      margin-bottom: 20px; }
+  section#services img {
+    margin: 35px 20px 10px 30px; }
+  section#services p {
+    padding-left: 35px;
+    margin: 0 auto;
+    max-width: 270px; }
+
+  section#work figure {
+    margin: 30px auto 10px auto; }
+
+  footer div.first h6 {
+    margin: 40px auto 30px 0px; }
+  footer div.first p {
+    margin: 0 auto 10px 0px; }
+  footer div.second ul#links {
+    margin: 0 auto 50px auto; } }
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  section#slider h3 {
+    padding: 20px 220px; }
+
+  section#services div.col-lg-4:last-child {
+    margin-bottom: 0px; }
+  section#services img {
+    margin: 20px 20px 0 30px; }
+  section#services p {
+    display: block;
+    padding-left: 0px;
+    margin: 0px auto 50px 138px;
+    max-width: 185px;
+    text-align: justify; }
+
+  section#work figure {
+    margin: 50px auto; }
+    section#work figure img {
+      width: 100%;
+      height: auto; }
+
+  footer div.second ul#links {
+    margin: 0 auto; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  section#services div.col-lg-4 {
+    text-align: none; }
+    section#services div.col-lg-4:last-child {
+      margin-bottom: 0px; }
+  section#services img {
+    margin: 20px 20px 0 30px; }
+  section#services p {
+    display: inline-block;
+    padding-left: 0px;
+    margin: 0px auto 50px 115px;
+    max-width: 185px;
+    text-align: justify; }
+
+  footer div.first h6 {
+    margin: 40px auto 30px 30px; }
+  footer div.first p {
+    margin: 0 auto 10px 30px; } }
+/* Large Devices, Wide Screens */
